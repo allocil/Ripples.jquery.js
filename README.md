@@ -22,8 +22,8 @@ the time it will take to finish the ripples in seconds. Ex: `0.75`
 The callback function to call on click.
 
 ## Example
-```	$("button").ripples();
-	$("a").ripples({
+```	$("button").ripples();```
+```	$("a").ripples({
 		"color": "#ffffff",
 		"timing": 0.75,
 		"mode": "gradient",
