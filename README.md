@@ -22,18 +22,18 @@ the time it will take to finish the ripples in seconds. Ex: `0.75`
 The callback function to call on click.
 
 ## Example
-`<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-<script src="ripples.jquery.js"></script>
-<script>
-	$("button").ripples();
-	$("a").ripples({
-		"color": "#ffffff",
-		"timing": 0.75,
-		"mode": "gradient",
-		callback: function(){
-			$("div.content").append("<p>CLICK</p>");
-			return true;
-		}
-	});
-</script>`
+><script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+><script src="ripples.jquery.js"></script>
+><script>
+>	$("button").ripples();
+>	$("a").ripples({
+>		"color": "#ffffff",
+>		"timing": 0.75,
+>		"mode": "gradient",
+>		callback: function(){
+>			$("div.content").append("<p>CLICK</p>");
+>			return true;
+>		}
+>	});
+></script>
 
