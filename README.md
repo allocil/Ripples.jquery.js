@@ -31,6 +31,6 @@ The callback function to call on click.
 			$("div.content").append("<p>CLICK</p>");
 			return true;
 		}
-	});```
+	});
 
 
